@@ -75,7 +75,22 @@ GEM
   remote: https://rubygems.org/
   specs:
     atomic (1.0.1)
+    backbone-on-rails (0.9.9.0)
+      eco
+      ejs
+      jquery-rails
+      rails (>= 3.1)
     builder (3.1.4)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.4.0)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
+    ejs (1.1.1)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -125,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-deprecated_finders!
   arel!
+  backbone-on-rails
   jquery-rails
   mysql2
   rails!

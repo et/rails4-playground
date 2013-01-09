@@ -5,6 +5,7 @@ gem 'arel',      github: 'rails/arel'
 gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 
 gem 'mysql2'
+gem 'backbone-on-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.
