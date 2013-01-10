@@ -3,11 +3,9 @@ window.Rails4Playground = {
   Collections: {},
   Views: {},
   Routers: {},
-  initialize: function() {
-    alert('Hello from Backbone!');
+  initialize: function(data) {
+    var posts = new Rails4Playground.Collections.Posts(data.posts);
+    new Rails4Playground.Routers.Posts({ posts: posts });
+    Backbone.history.start();
   }
 };
-
-$(document).ready(function(){
-  Rails4Playground.initialize();
-});
